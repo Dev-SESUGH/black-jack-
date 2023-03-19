@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(55, 141, 55);
+  text-align: center;
+  padding: 50px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 4rem;
+  color: goldenrod;
+}
+
+p {
+  margin-top: 50px;
+  font-size: 2.5rem;
+}
+
+#message-el {
+  font-style: italic;
+}
+
+#game-start {
+  width: 150px;
+  background: goldenrod;
+  color: #016f32;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+#game-start:hover {
+  background: black;
+  color: white;
+  cursor: pointer;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
