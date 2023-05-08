@@ -38,7 +38,32 @@ p {
   margin-top: 10px;
 }
 
+#game-start:active {
+  transform: translateY(4px);
+}
+
 #game-start:hover {
+  background: black;
+  color: white;
+  cursor: pointer;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#new-card {
+  width: 150px;
+  background: goldenrod;
+  color: #016f32;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+#new-card:active {
+  transform: translateY(4px);
+}
+
+#new-card:hover {
   background: black;
   color: white;
   cursor: pointer;
